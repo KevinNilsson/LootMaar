@@ -10,6 +10,8 @@ import UIKit
 
 class ProfileController: UIViewController {
 
+    @IBOutlet weak var scrollCtrl: UIScrollView!
+    //@IBOutlet weak var mainScroller: UIScrollView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,5 +24,10 @@ class ProfileController: UIViewController {
     }
     
 
+    
+    override func viewDidAppear(animated: Bool) {
+        scrollCtrl.contentSize = CGSizeMake(scrollCtrl.frame.size.width,1400);
+
+    }
     
 }

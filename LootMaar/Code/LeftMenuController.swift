@@ -27,7 +27,7 @@ class LeftMenuContoller : UIViewController {
     @IBAction func onMyProfile(sender: AnyObject) {
         
         let storyBoard = UIStoryboard(name: "Profile", bundle:NSBundle.mainBundle());
-        let profileController = storyBoard.instantiateViewControllerWithIdentifier("profilecontroller") as! UIViewController;
+        let profileController = storyBoard.instantiateViewControllerWithIdentifier("profilecontroller") as! ProfileController;
 
         let navigationController = UINavigationController(rootViewController: profileController);
         navigationController.navigationBarHidden = true;

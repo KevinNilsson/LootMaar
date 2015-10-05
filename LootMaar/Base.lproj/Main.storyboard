@@ -4281,7 +4281,7 @@
                                                             </mask>
                                                         </variation>
                                                         <variation key="widthClass=compact" misplaced="YES">
-                                                            <rect key="frame" x="24" y="4" width="19" height="20"/>
+                                                            <rect key="frame" x="24" y="5" width="19" height="19"/>
                                                             <mask key="constraints">
                                                                 <include reference="mgb-x6-1Yo"/>
                                                             </mask>
