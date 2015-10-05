@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "LootMaar.LoginController.onLogin (LootMaar.LoginController)(Swift.AnyObject) -&gt; ():LoginController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "LootMaar.LoginController.onCheckRemember (LootMaar.LoginController)(Swift.AnyObject) -&gt; ():LoginController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.isRemember">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
