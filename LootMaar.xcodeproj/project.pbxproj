@@ -259,6 +259,8 @@
 		3D9CE9CA1BBEDB3900A0222D /* voucherStar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D9CE8E21BBEDB3900A0222D /* voucherStar@3x.png */; };
 		3D9CE9CC1BBF1D3900A0222D /* FB56.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D9CE9CB1BBF1D3900A0222D /* FB56.png */; };
 		3D9CE9CE1BBF1F3A00A0222D /* TW56.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D9CE9CD1BBF1F3A00A0222D /* TW56.png */; };
+		8A5F1A8F1BC34ECF00A3209B /* MyDealsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5F1A8E1BC34ECF00A3209B /* MyDealsController.swift */; };
+		8A5F1A981BC35D0100A3209B /* MydealsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5F1A971BC35D0100A3209B /* MydealsTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -532,6 +534,8 @@
 		3D9CE8E21BBEDB3900A0222D /* voucherStar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voucherStar@3x.png"; sourceTree = "<group>"; };
 		3D9CE9CB1BBF1D3900A0222D /* FB56.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FB56.png; sourceTree = "<group>"; };
 		3D9CE9CD1BBF1F3A00A0222D /* TW56.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TW56.png; sourceTree = "<group>"; };
+		8A5F1A8E1BC34ECF00A3209B /* MyDealsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyDealsController.swift; path = Code/MyDealsController.swift; sourceTree = "<group>"; };
+		8A5F1A971BC35D0100A3209B /* MydealsTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MydealsTableCell.swift; path = Code/MydealsTableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -561,6 +565,8 @@
 				3D0CA5091BC1A98D00B492B5 /* Utility.swift */,
 				3D540AE01BC1CA3B0097D4EB /* RootController.swift */,
 				3D8EA50F1BC29EB500612273 /* ProfileController.swift */,
+				8A5F1A8E1BC34ECF00A3209B /* MyDealsController.swift */,
+				8A5F1A971BC35D0100A3209B /* MydealsTableCell.swift */,
 			);
 			name = Code;
 			sourceTree = "<group>";
@@ -934,6 +940,7 @@
 		3D1A4BEE1BBEB8FA005A5484 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = LootMaar;
 				TargetAttributes = {
@@ -1228,6 +1235,7 @@
 			files = (
 				3D1A4C011BBEB8FA005A5484 /* ViewController.swift in Sources */,
 				3D540AE91BC1CF720097D4EB /* RECommonFunctions.m in Sources */,
+				8A5F1A981BC35D0100A3209B /* MydealsTableCell.swift in Sources */,
 				3D1A4BFF1BBEB8FA005A5484 /* LootMaar.xcdatamodeld in Sources */,
 				3D540AE11BC1CA3B0097D4EB /* RootController.swift in Sources */,
 				3D8EA5101BC29EB500612273 /* ProfileController.swift in Sources */,
@@ -1236,6 +1244,7 @@
 				3D1A4BFC1BBEB8FA005A5484 /* AppDelegate.swift in Sources */,
 				3D0CA5061BC1A81700B492B5 /* HomeController.swift in Sources */,
 				3D540AEA1BC1CF720097D4EB /* RESideMenu.m in Sources */,
+				8A5F1A8F1BC34ECF00A3209B /* MyDealsController.swift in Sources */,
 				3D0CA5081BC1A8A400B492B5 /* LoginController.swift in Sources */,
 				3D540AEB1BC1CF720097D4EB /* UIViewController+RESideMenu.m in Sources */,
 			);

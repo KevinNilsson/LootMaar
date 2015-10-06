@@ -44,6 +44,14 @@ class LeftMenuContoller : UIViewController {
 
     // go to my deals window
     @IBAction func onMyDeals(sender: AnyObject) {
+        let storyBoard = UIStoryboard(name: "Main", bundle:NSBundle.mainBundle());
+        let myDealsController = storyBoard.instantiateViewControllerWithIdentifier("MyDealsVC") as! UIViewController;
+        /*
+        let navigationController = UINavigationController(rootViewController: myDealsController);
+        navigationController.navigationBarHidden = true;
+        */
+        sideMenuViewController.setContentViewController(myDealsController, animated: true);
+        sideMenuViewController.hideMenuViewController()
     }
     
     
