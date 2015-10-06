@@ -259,6 +259,7 @@
 		3D9CE9CA1BBEDB3900A0222D /* voucherStar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D9CE8E21BBEDB3900A0222D /* voucherStar@3x.png */; };
 		3D9CE9CC1BBF1D3900A0222D /* FB56.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D9CE9CB1BBF1D3900A0222D /* FB56.png */; };
 		3D9CE9CE1BBF1F3A00A0222D /* TW56.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D9CE9CD1BBF1F3A00A0222D /* TW56.png */; };
+		3DE7DD231BC365CD00B3D7CC /* Window.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DE7DD211BC365CD00B3D7CC /* Window.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -532,6 +533,7 @@
 		3D9CE8E21BBEDB3900A0222D /* voucherStar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voucherStar@3x.png"; sourceTree = "<group>"; };
 		3D9CE9CB1BBF1D3900A0222D /* FB56.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FB56.png; sourceTree = "<group>"; };
 		3D9CE9CD1BBF1F3A00A0222D /* TW56.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TW56.png; sourceTree = "<group>"; };
+		3DE7DD221BC365CD00B3D7CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Window.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -597,6 +599,7 @@
 				3D1A4BFD1BBEB8FA005A5484 /* LootMaar.xcdatamodeld */,
 				3D1A4BF91BBEB8FA005A5484 /* Supporting Files */,
 				3D8EA50C1BC25E4B00612273 /* Profile.storyboard */,
+				3DE7DD211BC365CD00B3D7CC /* Window.storyboard */,
 			);
 			path = LootMaar;
 			sourceTree = "<group>";
@@ -1066,6 +1069,7 @@
 				3D9CE9CC1BBF1D3900A0222D /* FB56.png in Resources */,
 				3D9CE9821BBEDB3900A0222D /* message@3x.png in Resources */,
 				3D9CE9281BBEDB3900A0222D /* detailCool@2x.png in Resources */,
+				3DE7DD231BC365CD00B3D7CC /* Window.storyboard in Resources */,
 				3D9CE9C71BBEDB3900A0222D /* vouchers@2x.png in Resources */,
 				3D9CE9201BBEDB3900A0222D /* detail_09.png in Resources */,
 				3D9CE9B41BBEDB3900A0222D /* StarFullLarge.png in Resources */,
@@ -1282,6 +1286,14 @@
 				3D8EA50D1BC25E4B00612273 /* Base */,
 			);
 			name = Profile.storyboard;
+			sourceTree = "<group>";
+		};
+		3DE7DD211BC365CD00B3D7CC /* Window.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DE7DD221BC365CD00B3D7CC /* Base */,
+			);
+			name = Window.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
